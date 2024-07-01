@@ -1,4 +1,4 @@
-//This is a C++ code for arduino to make the led blink
+//C++ code for arduino to make the led blink
 
 #define led_pin 8
 
