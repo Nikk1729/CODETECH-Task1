@@ -62,6 +62,6 @@ void loop() {
 
 ### RESULTS:
 
-
+The Led blinks with a delay of 1sec
 ![BLINK](https://github.com/Nikk1729/CODETECH-Task1/assets/123321525/b164aa6b-d159-4423-9a76-27991e527e4b)
 
