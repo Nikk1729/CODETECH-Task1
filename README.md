@@ -40,22 +40,29 @@ The value of the resistor in series with the LED may be of a different value tha
 
 ### Arduino Code:
 
+#define led_pin 8
 
-#define led_pin 8                                                                                                                                                                      
-void setup() {                                                                                                                                                                           
-// We're going to write to the pin, so we set its mode to OUTPUT                                                                                                           
-    
-    pinMode(led_pin, OUTPUT);
-    
-    }
-    
-void loop() {                                                                                                                                                  
-    digitalWrite(led_pin,HIGH); // Turn the LED on                                                                                                                             
-    delay(1000); // wait a second                                                                                                                                
-    digitalWrite(led_pin,LOW); // Turn the LED ofF                                                                                                                             
-    delay(1000); // wait a second
-    
-    }
+void setup() {
+  
+  // We're going to write to the pin, so we set its mode to OUTPUT 
+  
+  pinMode(led_pin, OUTPUT);
+
+}
+
+void loop() {
+
+  digitalWrite(led_pin,HIGH); // Turn the LED on
+  
+  delay(1000); // wait a second
+
+  digitalWrite(led_pin,LOW); // Turn the LED off
+  
+  delay(1000); // wait a second
+
+}
+
+
 
 ### Deployment Using Arduino IDE:
 ![image](https://github.com/Nikk1729/CODETECH-Task1/assets/123321525/f1881768-d44e-4f15-8615-2306c25fceb1)
